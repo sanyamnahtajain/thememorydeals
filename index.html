@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMD</title>
+    <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/headline.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link href="assets/js/animate/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- <header class="header-section v2 sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container header-navbar-container">
+                                <a class="navbar-brand header-logo" href="index.html">
+                                    <img src="assets/images/logo.png" alt="header-logo" style="height: 50px;">
+                                </a>
+
+                                <a id="nav-expander" class="nav-expander bar" href="#">
+                                    <img src="assets/images/icons/menu.svg" alt="menu" />
+                                    <img src="assets/images/icons/menu-close.svg" alt="menu" />
+                                </a>
+
+                                <div class="collapse navbar-collapse header-navbar-content" id="navbarSupportedContent">
+                                    <ul class="navbar-nav main-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link dropdown-toggle" href="#"> Solutions </a>
+                                            <ul class="submenu">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <li>
+                                                            <a class="dropdown-item d-flex" href="solution-details.html">
+                                                                <div>
+                                                                    <img src="assets/images/icons/catalogue.png" style="height: 30px;">
+                                                                </div>
+                                                                <div class="nav-text">
+                                                                    <h4>Catalogue</h4>
+                                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex" href="solution-details.html">
+                                                                <div>
+                                                                    <img src="assets/images/icons/fulfillment.png" style="height: 30px;">
+                                                                </div>
+                                                                <div class="nav-text">
+                                                                    <h4>Order Fulfilment</h4>
+                                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex" href="solution-details.html">
+                                                                <div>
+                                                                    <img src="assets/images/icons/pricing.png" style="height: 30px;">
+                                                                </div>
+                                                                <div class="nav-text">
+                                                                    <h4>Supplier Pricing</h4>
+                                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <li>
+                                                            <a class="dropdown-item d-flex" href="solution-details.html">
+                                                                <div>
+                                                                    <img src="assets/images/icons/calling.png" style="height: 30px;">
+                                                                </div>
+                                                                <div class="nav-text">
+                                                                    <h4>In App Calling</h4>
+                                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex" href="solution-details.html">
+                                                                <div>
+                                                                    <img src="assets/images/icons/invoice.png" style="height: 30px;">
+                                                                </div>
+                                                                <div class="nav-text">
+                                                                    <h4>GST and E-Invoice Support</h4>
+                                                                    <p>Lorem ipsum dolor sit amet</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pricing.html">Pricing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Blog</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header-extra">
+                                        <li><a href="https://app.zoyride.com/">Sign Up</a></li>
+                                        <li>
+                                            <a href="https://calendly.com/zoyride" target="_blank" class="theme-btn talk-btn">
+                                                <span class="btn-inner">
+                                                    <span class="btn-normal-text">Book a Demo</span>
+                                                    <span class="btn-hover-text">Book a Demo</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header> -->
+    <!-- <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#"> Solutions </a>
+                    <ul class="sub-menu">
+                        <li><a class="dropdown-item" href="solution-details.html">Catalogue</a></li>
+                        <li><a class="dropdown-item" href="solution-details.html">Order Fulfilment</a></li>
+                        <li><a class="dropdown-item" href="solution-details.html">Supplier Pricing</a></li>
+                        <li><a class="dropdown-item" href="solution-details.html">In App Calling</a></li>
+                        <li><a class="dropdown-item" href="solution-details.html">GST and E-Invoice Support</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+           <ul class="nav-buttons">
+                <li>
+                    <a href="https://calendly.com/zoyride" target="_blank" class="bg-blue-btn">
+                        <span class="btn-inner">
+                            <span class="btn-normal-text">Book a demo</span>
+                            <span class="btn-hover-text">Book a demo</span>
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://app.zoyride.com/" class="bg-blue-btn sign-in-btn">
+                        <span class="btn-inner">
+                            <span class="btn-normal-text">Sign up</span>
+                            <span class="btn-hover-text">Sign up</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav> -->
+    <section class="hero-section-index5">
+        <div class="container">
+            <div class="index5-hero-content">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-0 col-12 d-block d-lg-none">
+                        <img src="assets/images/TMD.png" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="v5banner-text">
+                            <h1 class="cd-headline clip is-full-width banner-title text-center">
+                                <span class="brack-text">
+                                    Elevate Your
+                                    <span class="highlighted">
+                                        Experience
+                                    </span>
+
+                            </h1>
+                            <p> Discover premium mobile accessories designed to enhance your device and lifestyle.
+                                Unlock your tech's full potential
+                                today.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-0 d-none d-lg-flex">
+                        <img src="assets/images/TMD.png" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
+                </div>
+
+
+                <!-- <div class="sass-banner-btn text-center">
+                        <a href="https://app.zoyride.com/" class="view-demo-btn">
+                            Sign up
+                            <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                        </a>
+                        <a href="https://calendly.com/zoyride" target="_blank" class="sass-start-free-btn">
+                            <span class="btn-inner">
+                                <span class="btn-normal-text">Book a Demo</span>
+                                <span class="btn-hover-text">Book a Demo</span>
+                            </span>
+                        </a>
+                    </div> -->
+            </div>
+        </div>
+ 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="brands-slider">
+                        <div class="brands-slider-container">
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/erd.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/zebronics.png" alt="img"
+                                            style="height: 30px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/ambrane.png" alt="img"
+                                            style="height: 20px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/portronics.png" alt="img"
+                                            style="height: 30px;">
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/soroo.png" alt="img" style="height: 40px;">
+                                        <strong>SoRoo</strong>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/erd.png" alt="img" style="height: 40px;">
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/zebronics.png" alt="img"
+                                            style="height: 30px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/ambrane.png" alt="img"
+                                            style="height: 20px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/portronics.png" alt="img"
+                                            style="height: 30px;">
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/soroo.png" alt="img" style="height: 40px;">
+                                        <strong>SoRoo</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="brands-slider">
+                        <div class="brands-slider-container-opp">
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/alexa.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/jbl.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/oneplus.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/boat.png" alt="img" style="height: 30px;">
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/realme.jpg" alt="img" style="height: 30px;">
+
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/alexa.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/jbl.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/oneplus.png" alt="img"
+                                            style="height: 40px;"></span>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/boat.png" alt="img" style="height: 30px;">
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="silder-container">
+                                    <span><img src="assets/images/brands/realme.jpg" alt="img" style="height: 30px;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="why-choose-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center z-index-3">
+                        <h2 class="title">Expand into new markets and regions with unprecedented speed</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="assets/images/1.svg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <div class="powerfull-template-section">
+        <div class="container">
+            <div class="powerfull-template-content">
+                <div class="timeline-innerline">
+                    <div class="timeline-progress" style="height: 0px;"></div>
+                </div>
+
+                <div class="powerfull-template-row">
+                    <div class="powerfull-template-number">1</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="powerfull-template-img powerfull-template-img-left">
+                                <img src="assets/images/catalogue.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="powerfull-template-text powerfull-template-text-right">
+                                <h3>Catalogue</h3><br>
+                                <h5>Rich Catalogue Model </h5>
+                                <p>Tailor your success with precision: TMD offers hyper-customized pricing strategies
+                                    for every inventory, location, car type, and customer, ensuring unparalleled service
+                                    and profitability.</p>
+                                <ul>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+                                            width="1em" height="1em" viewBox="0 0 16 16" data-icon="bi:check-lg"
+                                            class="iconify iconify--bi">
+                                            <path fill="currentColor"
+                                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06a.733.733 0 0 1 1.047 0l3.052 3.093l5.4-6.425z">
+                                            </path>
+                                        </svg> Coupon Codes
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+                                            width="1em" height="1em" viewBox="0 0 16 16" data-icon="bi:check-lg"
+                                            class="iconify iconify--bi">
+                                            <path fill="currentColor"
+                                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06a.733.733 0 0 1 1.047 0l3.052 3.093l5.4-6.425z">
+                                            </path>
+                                        </svg>Internationalisation
+                                    </li>
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+                                            width="1em" height="1em" viewBox="0 0 16 16" data-icon="bi:check-lg"
+                                            class="iconify iconify--bi">
+                                            <path fill="currentColor"
+                                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06a.733.733 0 0 1 1.047 0l3.052 3.093l5.4-6.425z">
+                                            </path>
+                                        </svg> Multi Currency</li>
+                                </ul>
+                                <div class="sass-banner-btn" style="display: block;">
+                                    <a href="#" class="view-demo-btn">
+                                        Learn more
+                                        <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="powerfull-template-row">
+                    <div class="powerfull-template-number">2</div>
+                    <div class="row flex-row-reverse">
+                        <div class="col-md-6">
+                            <div class="powerfull-template-img powerfull-template-img-right">
+                                <img src="assets/images/order-fulfilment.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="powerfull-template-text powerfull-template-text-left">
+                                <h3>Order Fulfilment</h3><br>
+                                <h5>Manual & Automated vehicle allocation model </h5>
+                                <p>Optimize your fleet with flexibility: TMD's dual vehicle allocation model combines
+                                    the best of manual precision and automated efficiency, ensuring the right match for
+                                    every journey.</p>
+                                <div class="sass-banner-btn" style="display: block;">
+                                    <a href="#" class="view-demo-btn">
+                                        Learn more
+                                        <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="powerfull-template-row">
+                    <div class="powerfull-template-number">3</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="powerfull-template-img powerfull-template-img-left pb-0">
+                                <img src="assets/images/supplier-pricing.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="powerfull-template-text powerfull-template-text-right">
+                                <h3>Supplier Pricing</h3><br>
+                                <h5>Managing Client and supplier pricing</h5>
+                                <p>Streamline your operations with clarity: TMD enables the integration of multiple
+                                    suppliers and their charges, offering a transparent and straightforward approach to
+                                    cash flow management.</p>
+                                <div class="sass-banner-btn" style="display: block;">
+                                    <a href="#" class="view-demo-btn">
+                                        Learn more
+                                        <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="powerfull-template-row">
+                    <div class="powerfull-template-number">4</div>
+                    <div class="row flex-row-reverse">
+                        <div class="col-md-6">
+                            <div class="powerfull-template-img powerfull-template-img-right">
+                                <img src="assets/images/app-calling.svg" alt="img" style="height: 400px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="powerfull-template-text powerfull-template-text-left">
+                                <h3>In App Calling</h3><br>
+                                <p>Connect with your drivers or customers using in App Calling support from App or
+                                    Webconsole.</p>
+                                <div class="sass-banner-btn" style="display: block;">
+                                    <a href="#" class="view-demo-btn">
+                                        Learn more
+                                        <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="powerfull-template-row">
+                    <div class="powerfull-template-number">5</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="powerfull-template-img powerfull-template-img-left pb-0">
+                                <img src="assets/images/gst-support.svg" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="powerfull-template-text powerfull-template-text-right">
+                                <h3>GST and E-Invoice Support</h3><br>
+                                <p>Master your financials effortlessly: TMD provides comprehensive support for all tax
+                                    calculations and the creation of e-invoices, simplifying your billing process and
+                                    enhancing client satisfaction.</p>
+                                <div class="sass-banner-btn" style="display: block;">
+                                    <a href="#" class="view-demo-btn">
+                                        Learn more
+                                        <img src="assets/images/icons/arrow-right-white.svg" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="powerfull-template-row"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <section class="faq-seciton v2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="faq-seciton-header">
+                        <div class="section-title mb-0">
+                            <span class="sub-title">Questions &amp; answers</span>
+                            <h2 class="title">
+                                Frequently <span class="marketing-badge">Asked</span> Questions
+                            </h2>
+                        </div>
+                        <div class="faq-header-right">
+                            <img src="assets/images/faq-icon.svg" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion theme-accordion" id="accordionExample">
+                        <div class="accordion-item collapsed">
+                            <h5 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is TMD ?
+                                </button>
+                            </h5>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Is it possible to integrate plugin ?
+                                </button>
+                            </h5>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Does it support crypto payment ?
+                                </button>
+                            </h5>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    When it will come ?
+                                </button>
+                            </h5>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion theme-accordion" id="accordionExample2">
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How can I create a call ?
+                                </button>
+                            </h5>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    How long I can continue free Plan ?
+                                </button>
+                            </h5>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    How long I can continue free Plan ?
+                                </button>
+                            </h5>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h5 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    How long I can continue free Plan ?
+                                </button>
+                            </h5>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>
+                                        We use as filler text for layouts, non-readability is of great before
+                                        importancebut because those who do not know how to pursue pleasure
+                                        rationally encounter consequences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="chatbot-footer-section newsletter-footer sass-footer z-index-3">
+        <div class="container">
+            <div class="newsletter-get-demo-section sass">
+                <div class="newsletter-get-demo-section-inner sass">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="newsletter-get-demo-left pb-0">
+                                <h2>Reach global scale</h2>
+                                <h5 class="text-white">Launch new regions and channels in days. Expand internationally
+                                    with the fastest time to multiple markets thanks to Zoyride’s composable, headless
+                                    architecture.</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="newsletter-get-demo-left pb-0">
+                                <div class="sass-banner-btn text-center">
+                                    <a href="https://app.zoyride.com/">Sign Up <svg xmlns="http://www.w3.org/2000/svg"
+                                            aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24"
+                                            data-icon="akar-icons:arrow-right" class="iconify iconify--akar-icons">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7">
+                                            </path>
+                                        </svg></a>
+                                    <a href="https://calendly.com/zoyride" target="_blank" class="sass-start-free-btn">
+                                        <span class="btn-inner">
+                                            <span class="btn-normal-text">Book a Demo</span>
+                                            <span class="btn-hover-text">Book a Demo</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section v4">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-card">
+                            <div class="footer-info">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="assets/images/logo.png" alt="footer-logo" />
+                                </a>
+                                <div class="mb-30">
+                                    <h4>Your Gateway to Digital Transportation Excellence</h4>
+                                </div>
+                                <h5>Call us : <a href="tel:+916000711580"><span class="__cf_email__">+91
+                                            6000711580</span></a></h5>
+                                <h5>Hello to : <a href="mailto:business@zoyride.com"><span
+                                            class="__cf_email__">business@zoyride.com</span></a></h5>
+                            </div>
+                            <div class="footer-follow">
+                                <p>Follow:</p>
+                                <ul class="social-link">
+                                    <li>
+                                        <a href="https://www.facebook.com/zoyride" target="_blank"><i
+                                                class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/myzoyride" target="_blank"><i
+                                                class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/zoyride" target="_blank"><i
+                                                class="fa fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-md-4 col-6">
+                                <aside class="footer-widget">
+                                    <div class="widget-title">
+                                        <h6>Product</h6>
+                                    </div>
+                                    <div class="widget-body">
+                                        <ul class="widget-list">
+                                            <li><a href="#">Core Features</a></li>
+                                            <li><a href="#">User App</a></li>
+                                            <li><a href="#">Driver App</a></li>
+                                            <li><a href="#">Admin App</a></li>
+                                            <li><a href="#">Launch & Success Support</a></li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <aside class="footer-widget">
+                                    <div class="widget-title">
+                                        <h6>Solutions</h6>
+                                    </div>
+                                    <div class="widget-body">
+                                        <ul class="widget-list">
+                                            <li><a href="#">For Corporate</a></li>
+                                            <li><a href="#">For Transporter</a></li>
+                                            <li><a href="#">For Driver</a></li>
+                                            <li><a href="#">For User</a></li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <aside class="footer-widget">
+                                    <div class="widget-title">
+                                        <h6>Company</h6>
+                                    </div>
+                                    <div class="widget-body">
+                                        <ul class="widget-list">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">Careers <span class="theme-badge">Hiring</span></a></li>
+                                            <li><a href="https://calendly.com/zoyride" target="_blank">Book a Demo</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12 lg-center-text order-lg-1 order-3">
+                        <div class="footer-copyright">
+                            <p>2024 TMD. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5 order-lg-2 order-1">
+                        <ul class="footer-rating">
+                            <li>
+                                <div class="list-item">
+                                    <div class="icon">
+                                        <img src="assets/images/icons/android.png" alt="icon" />
+                                    </div>
+                                    <div class="text">
+                                        <span class="iconify" data-icon="clarity:star-solid"></span>
+                                        <p>4.8/5</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-item">
+                                    <div class="icon">
+                                        <img src="assets/images/icons/apple.png" alt="icon" />
+                                    </div>
+                                    <div class="text">
+                                        <span class="iconify" data-icon="clarity:star-solid"></span>
+                                        <p>4.6/5</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-7 order-lg-3 order-2">
+                        <ul class="privacy-menu">
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <div class="zoyride-scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <div class="zoyride-scroll-top-icon">
+            <span class="iconify" data-icon="mdi:arrow-up"></span>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/iconify.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/headline.js"></script>
+    <script src="assets/js/sticky-sidebar.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
